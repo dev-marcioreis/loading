@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--========CSS========-->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--========Icons========-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--========Favicon========-->
+    <link rel="shortcut icon" href="assets/images/favicon/favicon.png" type="image/x-icon">
+    <!--========Title page========-->
+    <title>Game</title>
+</head>
+
+<body>
+
+    <!--========All page========-->
+    <main class="all__page">
+
+        <!--========Header========-->
+        <header class="header">
+            <div class="container">
+                <div class="header__container">
+                    <div class="header__logo">
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/logo.png" alt="Logo image">
+                        </a>
+                    </div>
+                    <nav class="navbar">
+                        <ul class="navabar__list">
+                            <div class="navbar__item">
+                                <li class="navbar__link">
+                                    <a href="index.html">
+                                        <i class="uil uil-estate"></i>
+                                        <span class="navbar__name">início</span>
+                                    </a>
+                                </li>
+                                <div class="navbar__active"></div>
+                            </div>
+                            <div class="navbar__item">
+                                <li class="navbar__link">
+                                    <a href="#">
+                                        <i class="uil uil-facebook"></i>
+                                        <span class="navbar__name">facebook</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="navbar__item">
+                                <li class="navbar__link">
+                                    <a href="#t">
+                                        <i class="uil uil-twitter"></i>
+                                        <span class="navbar__name">twitter</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="navbar__item">
+                                <li class="navbar__link">
+                                    <a href="#">
+                                        <i class="uil uil-instagram-alt"></i>
+                                        <span class="navbar__name">instagram</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="navbar__item">
+                                <li class="navbar__link">
+                                    <a href="#">
+                                        <i class="uil uil-whatsapp-alt"></i>
+                                        <span class="navbar__name">whatsapp</span>
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                        <span class="close__btn"><i class="uil uil-multiply"></i></span>
+                    </nav>
+                    <span class="open__btn"><i class="uil uil-bars"></i></span>
+                </div>
+            </div>
+        </header>
+
+        <!--========Register========-->
+        <aside class="register">
+            <i class="uil uil-times" id="registerBtn"></i>
+            <div class="register__image-box">
+                <img src="assets/images/register.png" alt="Register image">
+            </div>
+            <div class="register__container-box forms">
+                <div class="form login">
+                    <div class="form__content">
+                        <h2 class="form__title"><i class="uil uil-user"></i> <span>entrar</span></h2>
+                        <form action="">
+                            <div class="field input__field">
+                                <input type="email" placeholder="E-mail" class="input">
+                            </div>
+                            <div class="field input__field">
+                                <input type="password" placeholder="Senha" class="password">
+                            </div>
+                            <div class="form__link">
+                                <a href="#" class="forgot__password">Esqueceu a senha?</a>
+                            </div>
+                            <div class="field button__field">
+                                <button>entrar</button>
+                            </div>
+                        </form>
+                        <div class="form__link">
+                            <span>Tem uma conta? <a href="#" class="link signup__link">Cadastre-se</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form signup">
+                    <div class="form__content">
+                        <h2 class="form__title"><i class="uil uil-pen"></i> <span>Cadastre-se</span></h2>
+                        <h4>Entre em nossa fila de espera</h4>
+                        <p>Seja um dos 100 primeiros a se registrar na lista de espera e ganhe 14 dias para alavancar
+                            sua carreira no universo de tecnologia.</p>
+                        <form action="">
+                            <div class="field input__field">
+                                <input type="text" placeholder="Nome" class="input">
+                            </div>
+                            <div class="field input__field">
+                                <input type="email" placeholder="E-mail" class="email">
+                            </div>
+                            <div class="field input__field">
+                                <input type="tel" placeholder="Celular" class="cel">
+                            </div>
+                            <div class="field button__field">
+                                <button>cadastre-se</button>
+                            </div>
+                        </form>
+                        <div class="form__link">
+                            <span>Tem uma conta? <a href="#" class="link login__link">Entrar</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!--========Home========-->
+        <section class="home">
+            <div class="container">
+                <div class="home__container">
+                    <h1>Home</h1>
+                    <button class="btn" id="openRegister">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <small>entrar</small>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+    <!--========Preloader========-->
+    <div id="preloader">
+        <span class="preloader__text">Carregando...</span>
+    </div>
+
+    <!--========Scrollbar========-->
+    <div class="scrollbar"></div>
+    <div class="progress-scrollbar"></div>
+
+    <!--========Scroll Up========-->
+    <a href="#" class="scroll__up">
+        <i class="uil uil-angle-up"></i>
+    </a>
+
+    <!--========GSAP========-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Flip.min.js"
+        integrity="sha512-AWDq5V1aZW5392Wm63Y2qUKK5MuksXgQVx4YMx5LqLOk4Tnzu2aSNyd/Uqwil/kIm9pikPDk6B626B7H3vq1GQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--========Scroll Reveal========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========jquery========-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <!--========JavaScript========-->
+    <script src="assets/js/pace.js"></script>
+    <script src="assets/js/loading.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
